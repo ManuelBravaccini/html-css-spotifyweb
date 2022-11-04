@@ -4,3 +4,36 @@
     box-sizing: border-box;
     font-family: "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/*Utilities*/
+
+.flex {
+    display: flex;
+}
+
+#container {
+    width: 100vw;
+    height: calc(100vh - 100px);
+}
+
+/*Aside*/
+
+#container aside {  
+    background-color: black;
+    width: 250px;
+}
+
+/*Main*/
+
+#container main {
+    background-color: #141922;
+    width: 100%;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #282828;
+    width: 100vw;
+    height: 100px;
+}
