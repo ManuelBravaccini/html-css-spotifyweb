@@ -20,12 +20,32 @@
 
 #container aside {  
     background-color: black;
+    color: #888a8e;
     width: 250px;
     padding: 1rem;
+    flex-direction: column;
 }
 
 #container aside img {
     width: 70%;
+}
+
+#container aside nav {
+    flex-direction: column;
+}
+
+#container aside nav a {
+    text-decoration: none;
+    color: #888a8e;
+}
+
+div#test {
+    align-self: flex-end;
+}
+
+div#test a {
+    text-decoration: none;
+    color: white;
 }
 
 /*Main*/
