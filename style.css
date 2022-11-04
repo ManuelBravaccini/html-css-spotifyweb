@@ -103,12 +103,6 @@ div#test a {
     width: 100%;
 }
 
-
-
-
-
-
-
 /*Footer*/
 
 footer {
@@ -120,6 +114,18 @@ footer {
 
 /*Responsive*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+    #container main section div figure {   
+        width: calc(100% / 4 - 1rem);
+    }
 
+    #container main section div {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container main section div figure {   
+        width: calc(100% / 2 - 1rem);
+    }
 }
