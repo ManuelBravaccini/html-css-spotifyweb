@@ -74,6 +74,7 @@ div#test a {
 
 #container main nav {
     justify-content: center;
+    flex-wrap: wrap;
     padding: 1rem;
     gap: 0 1rem;
 }
@@ -127,5 +128,13 @@ footer {
 @media screen and (max-width: 768px) {
     #container main section div figure {   
         width: calc(100% / 2 - 1rem);
+    }
+    
+    #container main {
+        width: calc(100vw - 50px);
+    }
+
+    #container aside {  
+        width: 50px;
     }
 }
