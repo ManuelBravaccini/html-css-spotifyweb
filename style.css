@@ -33,6 +33,7 @@
 #container main {
     background-color: #141922;
     width: calc(100% - 250px);
+    overflow-y: auto;
 }
 
 #container main header {
@@ -69,12 +70,12 @@
 }
 
 #container main section div {
-    justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 0 1rem;
 }
 
 #container main section div img {
-    width: 200px;
+    max-width: calc(100% / 6 - 1rem);
+
 }
 
 
@@ -90,6 +91,7 @@ footer {
     background-color: #282828;
     width: 100vw;
     height: 100px;
+    position: fixed;
 }
 
 /*Responsive*/
