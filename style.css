@@ -27,7 +27,7 @@
 
 #container main {
     background-color: #141922;
-    width: 100%;
+    width: calc(100% - 250px);
 }
 
 /*Footer*/
@@ -36,4 +36,10 @@ footer {
     background-color: #282828;
     width: 100vw;
     height: 100px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 768px) {
+
 }
