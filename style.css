@@ -11,16 +11,21 @@
     display: flex;
 }
 
+/*Aside*/
+
 #container {
     width: 100vw;
     height: calc(100vh - 100px);
 }
 
-/*Aside*/
-
 #container aside {  
     background-color: black;
     width: 250px;
+    padding: 1rem;
+}
+
+#container aside img {
+    width: 70%;
 }
 
 /*Main*/
@@ -29,6 +34,55 @@
     background-color: #141922;
     width: calc(100% - 250px);
 }
+
+#container main header {
+    background-color: #080b12;
+    width: 100%;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+
+#container main header a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Nav*/
+
+#container main nav {
+    justify-content: center;
+    padding: 1rem;
+}
+
+#container main nav a {
+    text-decoration: none;
+    color: #888a8e;
+}
+
+/*Sections*/
+
+#container main section {
+    padding: 1rem;
+    color: white;
+}
+
+#container main section div {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#container main section div img {
+    width: 200px;
+}
+
+
+
+
+
+
+
 
 /*Footer*/
 
