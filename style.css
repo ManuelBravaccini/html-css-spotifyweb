@@ -137,4 +137,10 @@ footer {
     #container aside {  
         width: 50px;
     }
+    
+    #container aside img,
+    #container aside nav a,
+    #container aside section {
+        display: none;
+    }
 }
