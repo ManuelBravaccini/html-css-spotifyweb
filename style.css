@@ -39,6 +39,15 @@
     color: #888a8e;
 }
 
+#container aside #playlist ul {
+    list-style-type: none;
+}
+
+#container aside nav div,
+#container aside #playlist ul li {
+    padding: .5rem 0;
+}
+
 div#test {
     align-self: flex-end;
 }
