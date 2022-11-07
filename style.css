@@ -24,6 +24,7 @@
     width: 250px;
     padding: 1rem;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 #container aside img {
@@ -34,7 +35,7 @@
     flex-direction: column;
 }
 
-#container aside nav a {
+#container aside a {
     text-decoration: none;
     color: #888a8e;
 }
@@ -44,17 +45,28 @@
 }
 
 #container aside nav div,
-#container aside #playlist ul li {
+#container aside #playlist ul li,
+#container aside #profile i,
+#container aside #profile a,
+#container aside h3 {
     padding: .5rem 0;
 }
 
-div#test {
-    align-self: flex-end;
+#container aside #profile img {
+    background-color: #888a8e;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
-div#test a {
-    text-decoration: none;
+#container aside hr,
+#container aside h3 {
+    border-color: #888a8e;
     color: white;
+}
+
+#container aside h3 {
+    display: inline;
 }
 
 /*Main*/
@@ -77,6 +89,10 @@ div#test a {
 #container main header a {
     text-decoration: none;
     color: white;
+    border: 1px solid white;
+    padding: .5rem 2rem;
+    border-radius: 25px;
+    text-transform: uppercase;
 }
 
 /*Nav*/
@@ -91,6 +107,7 @@ div#test a {
 #container main nav a {
     text-decoration: none;
     color: #888a8e;
+    text-transform: uppercase;
 }
 
 /*Sections*/
