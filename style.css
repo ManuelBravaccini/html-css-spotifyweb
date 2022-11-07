@@ -48,12 +48,12 @@
 
 #container aside #playlist #button-playlist {
     align-items: center;
+    margin-top: .5rem;
 }
 
 #container aside #playlist #button-playlist button {
     padding: .5rem .7rem;
     background-color: #a3a3a3;
-    margin-top: .5rem;
     margin-right: .5rem;
 }
 
@@ -69,21 +69,23 @@
     padding: .5rem 0;
 }
 
+#container aside #profile div.flex {
+    margin-top: .5rem;
+    align-items: center;
+}
+
 #container aside #profile img {
     background-color: #888a8e;
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    margin-right: .5rem;
 }
 
-#container aside hr,
-#container aside h3 {
+#container aside #profile hr,
+#container aside #profile h3 {
     border-color: #888a8e;
     color: white;
-}
-
-#container aside h3 {
-    display: inline;
 }
 
 /*Main*/
