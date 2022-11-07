@@ -21,6 +21,7 @@
 #container aside {  
     background-color: black;
     color: #888a8e;
+    font-weight: bold;
     width: 250px;
     padding: 1rem;
     flex-direction: column;
@@ -33,11 +34,27 @@
 
 #container aside nav {
     flex-direction: column;
+    margin: 1rem 0;
 }
 
 #container aside a {
     text-decoration: none;
     color: #888a8e;
+}
+
+#container aside #playlist h3 {
+    text-transform: uppercase;
+}
+
+#container aside #playlist #button-playlist {
+    align-items: center;
+}
+
+#container aside #playlist #button-playlist button {
+    padding: .5rem .7rem;
+    background-color: #a3a3a3;
+    margin-top: .5rem;
+    margin-right: .5rem;
 }
 
 #container aside #playlist ul {
