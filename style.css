@@ -110,6 +110,7 @@
 
 #container main header a {
     text-decoration: none;
+    font-size: .8rem;
     color: white;
     border: 1px solid white;
     padding: .5rem 2rem;
@@ -136,11 +137,15 @@
     text-transform: uppercase;
 }
 
-#container main nav a:hover,
+#container main nav:hover,
 #container aside #playlist #button-playlist:hover,
 #container aside #playlist ul li:hover,
 #container aside a:hover {
     color: white;
+}
+
+#container aside #playlist #button-playlist button:hover {
+    background-color: white;
 }
 
 /*Sections*/
@@ -203,21 +208,29 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    #container main section div figure {   
-        width: calc(100% / 2 - 1rem);
-    }
     
     #container main {
         width: calc(100vw - 50px);
     }
-
+    
     #container aside {  
         width: 50px;
     }
     
+    #container main section div figure {   
+        width: calc(100% / 2 - 1rem);
+    }
+    
     #container aside img,
     #container aside nav a,
-    #container aside section {
+    #container aside section,
+    #container aside #profile a,
+    #container aside #profile hr,
+    #container aside #profile h3 {
         display: none;
+    }
+
+    #container aside nav{
+        align-items: center;
     }
 }
